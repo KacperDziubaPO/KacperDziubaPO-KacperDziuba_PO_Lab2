@@ -14,9 +14,9 @@ public class Trapezoid {
         this.h = h;
     }
 
-    public void calculatePerimeter() {
-        perimeter = a + b;
-    }
+    //public void calculatePerimeter() {
+    //   perimeter = a + b;
+    //  }
 
     public void calculateField() {
         field = (0.5 * (a + b)) * h;

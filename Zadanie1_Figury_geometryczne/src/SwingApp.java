@@ -229,7 +229,7 @@ public class SwingApp extends JFrame {
                     textField4.setEditable(false);
                     textField5.setEditable(true);
                     textField6.setEditable(false);
-                    textField7.setEditable(true);
+                    textField7.setEditable(false);
 
                 }
                 if (!trapezRadioButton.isSelected()) {
@@ -352,9 +352,9 @@ public class SwingApp extends JFrame {
 
                         Trapezoid trapezoid = new Trapezoid(value1, value2, value3);
                         trapezoid.calculateField();
-                        trapezoid.calculatePerimeter();
+                        //trapezoid.calculatePerimeter();
                         textField5.setText(String.valueOf(trapezoid.getField()));
-                        textField7.setText(String.valueOf(trapezoid.getPerimeter()));
+                        //textField7.setText(String.valueOf(trapezoid.getPerimeter()));
                         break;
                     case "Sześcian":
                         value1 = Double.parseDouble(textField1.getText());
